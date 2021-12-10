@@ -1,0 +1,45 @@
+body
+{
+margin-top: 30px;
+font-size: 14px;
+}
+.link1:hover
+{
+text-decoration: none; 
+color: #007bff;
+}
+.link2:hover
+{
+text-decoration: underline; 
+color: #007bff;
+}
+.link3:hover
+{
+text-decoration: underline; 
+color: #007bff;
+}
+a.link4:hover
+{
+text-decoration: underline; 
+color: red;
+}
+.box1
+{
+border:1px solid #bbcbd5;
+background-color:#f6f8fa;
+border-radius: 10px;
+}
+.box2
+{
+border:1px solid #bbcbd5;
+border-radius: 5px;
+height: 60px;
+}
+.curve
+{
+border-radius: 4px;
+}
+.list-inline
+{
+	font-size: 12px;
+}

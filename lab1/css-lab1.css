@@ -1,0 +1,30 @@
+body
+{
+margin-top: 60px;
+}
+.row
+{
+height:120px;
+text-align: justify;
+padding:5px;
+}        
+.col-12
+{
+background-color: pink;
+}
+.col-md-3
+{
+background-color: #e1277e;
+}
+.col-md-6
+{
+background-color:#87CEEB;
+}
+.col-md-9
+{
+background-color: #97DE95;
+}
+.block 
+{
+border-left:12px solid white;
+}

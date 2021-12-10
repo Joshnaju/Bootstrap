@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css-lab3.css">
+      <title>Sign in to GitHub.GitHub</title>
+   </head>
+   <!--  Github Login Page.-->
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4 offset-md-4">
+               <div style="width: 300px;" >
+                  <a href="https://github.com/">
+                  <img class="d-block mx-auto mb-4" src="github_logo.png" alt="github_logo" width="50px" height="50px">
+                  </a>
+                  <p style=" font-size: 25px;" class="text-center lead" >Sign in to GitHub</p>
+                  <div class="box1 pt-3 pb-2 px-3">
+                     <form method="post" action="">
+                        <div class="form-group">
+                           <label for="usr">Username or email address</label>
+                           <input type="text" class="form-control form-control-sm curve" id="usr"  autofocus>
+                        </div>
+                        <div class="form-group">
+                           <label for="pwd">Password</label>
+                           <a class="link1" style="float: right;font-size: 12px;" href="https://github.com/password_reset">
+                           Forgot password?</a>
+                           <input type="password" class="form-control form-control-sm curve" id="pwd">
+                        </div>
+                        <div class="form-group">
+                           <button type = "submit" class = "btn btn-success form-control" style="font-size: 14px;"><b>Sign in</b></button>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="box2 mt-3 p-3">
+                     <div class="text-center box">New to GitHub?
+                        <a class="link2" href="https://github.com/signup?source=login">Create an account.</a>
+                     </div>
+                  </div>
+                  <div class="mt-5">
+                     <ul class = "list-inline text-center">
+                        <li class="list-inline-item" ><a class="link3" href="https://docs.github.com/en/github/site-policy/github-terms-of-service">Terms</a></li>
+                        <li class="list-inline-item" ><a class="link3" href="https://docs.github.com/en/github/site-policy/github-privacy-statement">Privacy</a></li>
+                        <li class="list-inline-item" ><a class="link3" href="https://github.com/security">Security</a></li>
+                        <li class="list-inline-item" ><a style="color: grey;" class="link4" href="https://support.github.com/?tags=dotcom-direct">
+                           <span> Contact GitHub</span></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
